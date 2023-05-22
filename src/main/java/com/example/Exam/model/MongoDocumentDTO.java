@@ -21,7 +21,7 @@ public class MongoDocumentDTO {
 
     private Long rating;
 
-    private Long phoneNumber;
+    private String phoneNumber;
 
     private String curatorName;
 

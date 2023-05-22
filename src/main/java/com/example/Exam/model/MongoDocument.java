@@ -28,7 +28,7 @@ public class MongoDocument {
 
     private Long rating;
 
-    private Long phoneNumber;
+    private String phoneNumber;
 
     private String curatorName;
 

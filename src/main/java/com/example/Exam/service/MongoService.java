@@ -5,9 +5,11 @@ import com.example.Exam.model.MongoDocumentDTO;
 import com.example.Exam.repository.MongoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+@Service
 public class MongoService {
 
     @Autowired
